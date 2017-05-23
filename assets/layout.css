@@ -1,0 +1,709 @@
+html {
+    background: #ccc;
+    background-repeat: repeat;
+    padding-bottom: 170px
+}
+
+.indent {
+    margin-left: 30px
+}
+
+body {
+    background: #fff;
+    position: relative;
+    border-bottom: 1px solid #34302e
+}
+
+.watermark {
+    position: absolute;
+    right: 10px;
+    top: 240px;
+    z-index: 100
+}
+
+#form1 {
+    margin: 0;
+    padding: 0
+}
+
+.top-bar {
+    width: 100%;
+    background: #120f0d;
+    height: 10px;
+    border-bottom: 1px solid #3d3936;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3
+}
+
+.overlay-bar {
+    height: 30px;
+    width: 100%;
+    background: #000;
+    top: 210px;
+    z-index: 3;
+    opacity: .3;
+    position: absolute
+}
+
+.footer-overlay-bar {
+    height: 30px;
+    width: 100%;
+    background: #000;
+    bottom: -41px;
+    z-index: 3;
+    opacity: .3;
+    position: relative
+}
+
+.top-lines {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 250px;
+    background: #ccc;
+    background-repeat: repeat;
+    border-bottom: 1px solid #34302e
+}
+
+.container {
+    position: relative;
+    z-index: 100
+}
+
+header {
+    height: 278px;
+    z-index: 5;
+    position: relative;
+    z-index: 300
+}
+
+.home header {
+    height: 477px;
+    position: relative
+}
+
+.social {
+    position: absolute;
+    right: 0;
+    top: 28px
+}
+
+.social a {
+    margin-left: 10px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, .70)
+}
+
+.social a:hover {
+    color: #fff
+}
+
+.header-left {
+    height: 216px;
+    top: 62px;
+    background: #120f0d;
+    position: absolute;
+    left: 0;
+    z-index: 2900
+}
+
+.home .header-left {
+    height: 416px
+}
+
+div#pageicon,
+div#slideshow {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 214px;
+    border: 1px solid #55514f!important;
+    overflow: hidden
+}
+
+div#slideshow {
+    height: 414px
+}
+
+div#pageicon img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 110
+}
+
+div#pageicon div img {
+    z-index: 100
+}
+
+.header-right {
+    height: 216px;
+    background: #120f0d;
+    text-align: center;
+    top: 62px;
+    position: absolute;
+    right: 0
+}
+
+.home .header-right {
+    height: 416px
+}
+
+nav {
+    width: 700px;
+    left: 10px;
+    position: absolute;
+    top: 28px
+}
+
+#mobile-menu {
+    padding-right: 0;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 1100;
+    cursor: pointer;
+    color: #fff;
+    font: 20px/25px BebasNeueRegular, Georgia, "Times New Roman", Helvetica, Arial, sans-serif;
+    display: none
+}
+
+div#logo,
+.home div#logo {
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 2900;
+    height: 214px;
+    border: 1px solid #55514f
+}
+
+.home div#logo {
+    height: 414px
+}
+
+.home div#logo img {
+    margin-top: 105px
+}
+
+div#logo img {
+    margin-top: 15px
+}
+
+section#content {
+    position: relative;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: -31px
+}
+
+aside#right-side {
+    min-height: 300px;
+    height: auto!important;
+    height: 300px
+}
+
+.pages aside#right-side {
+    min-height: 500px;
+    height: auto!important;
+    height: 500px
+}
+
+.sidebar-wrap {
+    min-height: 300px;
+    height: auto!important;
+    height: 300px
+}
+
+article#main {
+    min-height: 300px;
+    height: auto!important;
+    height: 300px
+}
+
+aside#left-side {
+    min-height: 300px;
+    height: auto!important;
+    height: 300px
+}
+
+#main-content-border {
+    border: 1px solid #55514f;
+    min-height: 300px;
+    height: auto!important;
+    height: 300px
+}
+
+.home #main-content-border {
+    height: 300px
+}
+
+.main-content {
+    padding: 10px;
+    position: relative;
+    z-index: 110
+}
+
+.home .main-content {
+    padding: 10px;
+    padding-top: 0;
+    font-size: 12px
+}
+
+.home .main-content p {
+    padding: 0;
+    margin: 0
+}
+
+#sub-nav-wrap {
+    background: #1c1714
+}
+
+#sub-nav {
+    border: 1px solid #55514f;
+    border-bottom: 0
+}
+
+.sidebar-wrap {
+    position: relative;
+    z-index: 130;
+    border: 1px solid #55514f
+}
+
+.pages .sidebar-wrap {
+    margin-top: 20px
+}
+
+.sidebar {
+    padding: 10px;
+    position: relative;
+    padding-top: 0;
+    font-size: 12px
+}
+
+.home #left-side .sidebar-wrap .home #right-side .sidebar-wrap {
+    min-height: 298px;
+    height: 298px;
+    overflow: hidden;
+    margin-bottom: 20px
+}
+
+.newsEvents-wrap {
+    height: 250px;
+    overflow: hidden
+}
+
+.pages .newsEvents-wrap {
+    height: 250px;
+    overflow: hidden
+}
+
+.pages .newsEvents-wrap p:nth-child(3n) {
+    padding: 0
+}
+
+.sidebar .newsEvents-wrap h3 {
+    display: none
+}
+
+.sidebar .newsEvents-wrap img {
+    display: none
+}
+
+.sidebar h1,
+.home #main-content-border h1 {
+    font-size: 20px;
+    line-height: 1.3em;
+    color: #8d8b8a;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    border-bottom: 1px solid #55514f;
+    background: #1c1714
+}
+
+.home #main-content-border h1 {
+    font-size: 20px;
+    line-height: 1.3em;
+    text-indent: 10px;
+    color: #8d8b8a;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    padding-top: 2px;
+    border-bottom: 1px solid #55514f;
+    background: #1c1714
+}
+
+.home .main-content h1 {
+    width: auto;
+    margin: 0;
+    padding-right: 0
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    height: 1px;
+    overflow: visible;
+    z-index: 4;
+    top: 42px;
+    margin-top: 20px
+}
+
+div#credits {
+    font-size: 16px;
+    line-height: 30px;
+    color: #8d8b8a;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "BebasNeueRegular", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400!important;
+    text-align: left;
+    padding-bottom: 20px
+}
+
+div#credits a,
+div#credits a:link,
+div#credits a:visited,
+div#credits a:hover {
+    color: #8d8b8a;
+    text-decoration: none
+}
+
+div#credits span a,
+div#credits span a:link,
+div#credits span a:visited,
+div#credits span a:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+div#credits span {
+    color: #fff
+}
+
+.icons {
+    position: absolute;
+    left: 0;
+    top: 45px
+}
+
+.icons img {
+    margin-right: 20px;
+    height: 45px;
+    width: auto;
+    opacity: .5
+}
+
+div#slideshow {
+    height: 414px;
+    position: relative;
+    z-index: 200
+}
+
+.image-description-wrap {
+    position: absolute;
+    bottom: 0;
+    z-index: 3900;
+    height: 85px;
+    width: 100%;
+    overflow: hidden;
+    display: table;
+    background: #1c1714;
+    border-top: 1px solid #55514f;
+    opacity: .9
+}
+
+.image-description {
+    padding: 10px;
+    padding-bottom: 25px;
+    color: #8d8b8a;
+    font-size: 20px;
+    line-height: 1em;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    font-family: 'KaushanScriptRegular', Helvetica, Arial, sans-serif
+}
+
+.image-credits {
+    position: absolute;
+    padding: 10px;
+    padding-bottom: 7px;
+    color: #55514f;
+    font-size: 10px;
+    line-height: 1em;
+    text-align: left;
+    display: block;
+    z-index: 3900;
+    width: 100%;
+    bottom: 0;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+#home-slider img {
+    float: left;
+    left: 0;
+    top: 0;
+    position: relative
+}
+
+#home-mask {
+    overflow: hidden;
+    position: relative;
+    height: 414px
+}
+
+.buttons {
+    position: absolute;
+    text-align: center;
+    top: 390px;
+    right: 10px;
+    z-index: 4900
+}
+
+.buttons .button {
+    background: url(../Userfiles/template/arrows-dots.png) no-repeat 0 -79px;
+    width: 13px;
+    height: 10px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-right: 0;
+    cursor: pointer
+}
+
+.buttons .active,
+.buttons .button:hover {
+    background: url(../Userfiles/template/arrows-dots.png) no-repeat 0 -92px
+}
+
+.resultsWrap {}
+
+.searchResults {
+    text-transform: lowercase!important;
+    font-size: 8pt;
+    line-height: 1.2em
+}
+
+.searchResults td {
+    padding: 2px 4px;
+    padding-right: 0
+}
+
+.resultsHeader {
+    font-size: 15px;
+    background: #ccc;
+    color: #120f0d;
+    line-height: 1.5em;
+    font-family: "BebasNeueRegular", "Georgia", "Times New Roman", Helvetica, Arial, sans-serif
+}
+
+.resultsHeader th {
+    padding: 0 5px
+}
+
+.alternateRow {
+    background: #1c1714
+}
+
+#updateDiv-bg {
+    background-color: #1c1714;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .8;
+    position: fixed;
+    width: 100%;
+    z-index: 3800
+}
+
+#updateDiv {
+    width: 300px;
+    left: 50%;
+    top: 300px;
+    text-align: center;
+    margin-left: -150px;
+    position: absolute;
+    z-index: 3900
+}
+
+.loginName {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: left
+}
+
+.loginTitle {
+    display: none
+}
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+    .home #main-content-border {
+        min-height: 430px;
+        height: auto!important;
+        height: 430px
+    }
+    .sidebar-wrap {
+        min-height: 430px;
+        height: auto!important;
+        height: 430px
+    }
+    .buttons {
+        right: 10px;
+        top: 375px
+    }
+    div#credits {
+        font-size: 13px
+    }
+}
+
+@media only screen and (max-width:767px) {
+    div.header-right {
+        border: 0
+    }
+    .home div#logo img {
+        margin-top: 65px
+    }
+    #nav {
+        display: none
+    }
+    #mobile-menu {
+        display: block
+    }
+    table td {
+        display: block;
+        width: 100%!important;
+        text-align: left!important;
+        vertical-align: left!important
+    }
+    .sidebar-wrap,
+    #sub-nav-wrap {
+        min-height: 130px;
+        height: auto!important;
+        height: 130px;
+        margin-top: 20px!important
+    }
+    .sidebar .project-wrap {
+        min-height: 130px;
+        height: auto!important;
+        height: 130px;
+        float: none
+    }
+    #main-content-border {
+        min-height: 130px;
+        height: auto!important;
+        height: 130px
+    }
+    #right-side {
+        margin-bottom: 20px
+    }
+    .buttons {
+        top: 298px;
+        right: 0;
+        background: #120f0d;
+        padding-bottom: 2px;
+        width: 100%
+    }
+    div#credits {
+        font-size: 13px;
+        line-height: 1em;
+        margin-top: 3px
+    }
+    .icons img {
+        height: 35px;
+        margin-bottom: 10px
+    }
+    nav {
+        left: 0;
+        width: 420px
+    }
+    nav ul#navmenu {
+        top: 41px
+    }
+    nav ul#navmenu ul {
+        border: 0;
+        display: block;
+        position: relative;
+        top: 0
+    }
+    nav ul#navmenu li,
+    nav ul#navmenu ul li {
+        width: 100%
+    }
+    nav ul#navmenu a {
+        background: #1c1714
+    }
+    nav ul#navmenu li li a {
+        padding-left: 30px;
+        font-size: 12pt;
+        border-bottom: 1px solid #000;
+        border-top: 1px solid #25201d
+    }
+    nav ul#navmenu li:hover li a,
+    nav ul#navmenu li.iehover li a {
+        padding-left: 30px
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .buttons {
+        top: 308px;
+        right: 0;
+        background: #120f0d;
+        padding-bottom: 2px;
+        width: 100%
+    }
+    .project-info .left {
+        width: 380px!important
+    }
+}
+
+@media only screen and (max-width:479px) {
+    nav {
+        left: 0;
+        width: 300px
+    }
+    .project-info .left {
+        width: 270px!important
+    }
+    div#credits {
+        font-size: 11px;
+        margin-top: 5px
+    }
+}
+
+@media all and (-webkit-min-device-pixel-ratio:1.5) {
+    #logo {
+        background-image: url(/images/my_image@2x.png);
+        background-size: 200px 100px
+    }
+    html,
+    .top-lines {
+        background: url(../Userfiles/template/stripe-bg@2x.png);
+        background-size: 4px 6px
+    }
+    .buttons .button {
+        background: url(../Userfiles/template/arrows-dots@2x.png) no-repeat 0 -79px;
+        background-size: 17px 102px
+    }
+    .buttons .active,
+    .buttons .button:hover {
+        background: url(../Userfiles/template/arrows-dots@2x.png) no-repeat 0 -92px;
+        background-size: 17px 102px
+    }
+}
